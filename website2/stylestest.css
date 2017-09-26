@@ -1,0 +1,261 @@
+body
+{
+	font-family: Roboto;
+}
+
+.iconspacing
+{
+	padding-right:6%;
+	padding-bottom:3%;
+	
+}
+
+.arrow
+{
+	padding-left:5%;
+	padding-bottom:3%;
+	
+}
+
+.hamfont
+{
+	font-size:18px;
+}
+
+.mdl-cell
+{
+	background-color:#F1F1F1 !important;
+	color:black;
+	
+}
+
+ .prodimage
+ {
+	display: block;
+    margin: auto;
+    border: 1px solid #ddd !important;
+    border-radius: 1px;
+    padding: 2px;
+	width:40%;
+	float:left;
+	margin-right:1%;
+}
+
+ .prodimage2
+ {
+    border: 1px solid #ddd !important;
+    border-radius: 1px;
+    padding: 2px;
+	width:30%;
+	float:left;
+	margin-right:1%;
+}
+
+.smenu 
+{
+	
+	width:100% !important;
+	
+}
+
+.linknostyle
+{
+	color:black;
+	text-decoration: none;
+	font-family: Roboto;
+	
+}
+
+
+.buttonspacing
+{
+	padding-right:5%;
+	padding-bottom:5%;
+	float:right;
+}
+
+.mySlides {display:none}
+
+.mycenter
+{
+	text-align:center!important;
+}
+
+.slideshow
+{
+	max-width:980px;
+	margin:auto;
+	clear:both;
+}
+
+.mybutton2
+{
+	display:inline-block !important;
+	outline:0 !important;
+	vertical-align:bottom !important;
+	overflow:hidden !important;
+	clear:both !important;
+	font-size:10px;
+	
+}
+
+.mybuttonsort
+{
+	display:inline-block !important;
+	outline:0 !important;
+	vertical-align:bottom !important;
+	overflow:hidden !important;
+	clear:both !important;
+	font-size:10px;
+	
+	
+}
+
+.mybuttonnumber
+{
+	width:0% !important;
+	font-size:10px;
+	margin: 2% 1%;
+}
+
+.sortbuttons
+{
+	
+	padding-top:0.5%;
+	padding-right:0.5%;
+	
+}
+
+#wrapper
+{
+	margin-left:1%;
+	margin-top:1%;
+        height:100%;
+	float:left;
+}
+
+#searchbutton
+{
+	display:none;
+}
+
+.textbox
+{
+	width:22%;
+	margin-top:3%;
+}
+
+.pagenos
+{
+	display:block;
+	
+}
+
+.q
+{
+	width:22%;
+	
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.pid,.quantity,.price
+{
+	width:8%;
+}
+
+.category,.edit
+{
+	width:12%;
+}
+
+.updatediv
+{
+	
+margin-left:1%;
+}
+
+#buttonwrapper
+{
+	position:absolute;
+	left:40%;
+	top:45%;
+	
+}
+
+#updatebuttons
+{
+	
+}
+
+#login
+{
+	
+	width:300px;
+	height:200px;
+	margin:0 auto;
+	vertical-align:middle;
+	top:50%;
+	border-radius: 25px;
+	background:rgb(64,196,255);
+}
+
+.field
+{
+	margin-left:8%;
+	margin-right:8%;
+	width:80%;
+}
+
+.loginbutton
+{
+	margin-left:35%;
+	
+}
+#space
+{
+	
+	height:200px;
+}
+
+#updatevalues
+{
+	
+	
+	margin-left:2%;
+}
+
+#prodinfo
+{
+	
+	float:left;
+	margin-left:1%;
+	margin-top:1%;
+}
+
+#piechart
+{
+	position:relative;
+	
+}
+
+#cat
+{
+	margin-left:2%;
+	
+}
+			

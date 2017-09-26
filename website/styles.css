@@ -1,0 +1,325 @@
+body
+{
+	font-family: Roboto;
+}
+
+.iconspacing
+{
+	padding-right:6%;
+	padding-bottom:3%;
+	
+}
+
+.arrow
+{
+	padding-left:5%;
+	padding-bottom:3%;
+	
+}
+
+.hamfont
+{
+	font-size:18px;
+}
+
+.mdl-cell
+{
+	background-color:#F1F1F1 !important;
+	color:black;
+	
+}
+
+ .prodimage
+ {
+	display: block;
+    margin: auto;
+    border: 1px solid #ddd !important;
+    border-radius: 1px;
+    padding: 2px;
+	width:40%;
+	float:left;
+	margin-right:1%;
+}
+
+ .prodimage2
+ {
+    border: 1px solid #ddd !important;
+    border-radius: 1px;
+    padding: 2px;
+	width:30%;
+	float:left;
+	margin-right:1%;
+}
+
+.smenu 
+{
+	
+	width:100% !important;
+	
+}
+
+.linknostyle
+{
+	color:black;
+	text-decoration: none;
+	font-family: Roboto;
+	
+}
+
+
+.buttonspacing
+{
+	padding-right:5%;
+	padding-bottom:5%;
+	float:right;
+}
+
+.mySlides {display:none}
+
+.mycenter
+{
+	text-align:center!important;
+}
+
+.slideshow
+{
+	max-width:980px;
+	margin:auto;
+	clear:both;
+}
+
+.mybutton2
+{
+	display:inline-block !important;
+	outline:0 !important;
+	vertical-align:bottom !important;
+	overflow:hidden !important;
+	clear:both !important;
+	font-size:10px;
+	
+}
+
+.mybuttonsort
+{
+	display:inline-block !important;
+	outline:0 !important;
+	vertical-align:bottom !important;
+	overflow:hidden !important;
+	clear:both !important;
+	font-size:10px;
+	
+	
+}
+
+.mybuttonnumber
+{
+	width:0% !important;
+	font-size:10px;
+	margin: 2% 1%;
+}
+
+.sortbuttons
+{
+	
+	padding-top:0.5%;
+	padding-right:0.5%;
+	
+}
+
+#wrapper
+{
+	float:left;
+}
+
+#searchbutton
+{
+	display:none;
+}
+
+.textbox
+{
+	width:22%;
+	margin-top:3%;
+}
+
+#pagenos
+{
+	margin:0 auto;
+}
+
+.q
+{
+	width:22%;
+	
+}
+
+#login
+{
+	
+	width:300px;
+	height:200px;
+	margin:0 auto;
+	vertical-align:middle;
+	top:50%;
+	border-radius: 25px;
+	background:rgb(64,196,255);
+}
+
+.field
+{
+	margin-left:8%;
+	margin-right:8%;
+	width:80%;
+}
+
+.loginbutton
+{
+	margin-left:35%;
+	
+}
+#space
+{
+	
+	height:200px;
+}
+
+#buttonwrappers
+{
+	position:absolute;
+	left:40%;
+	top:45%;
+	
+}
+
+.rating{
+    float:left;
+}
+
+/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
+   follow these rules. Every browser that supports :checked also supports :not(), so
+   it doesn’t make the test unnecessarily selective */
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    padding:0 .1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:200%;
+    line-height:1.2;
+    color:#ddd;
+    text-shadow:1px 1px #bbb, 2px 2px #666, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rating > input:checked ~ label {
+    color: #f70;
+    text-shadow:1px 1px #c60, 2px 2px #940, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}
+
+.productform
+{
+	margin: 0 auto;
+	margin-top:1%;
+	
+}
+
+.siteformdesktop
+{
+	
+	margin:0 auto;
+	
+}
+
+.feedbackform
+{
+	margin-left:1%;
+	margin-top:1%;
+	margin-bottom:1%;
+}
+
+.productform,.siteformdesktop
+{
+	border:1px solid black;
+	width:50%;
+}
+
+#prodinfo
+{
+	float:right;
+	
+}
+
+#website1body
+{
+	overflow:scroll;
+}
+
+.sortbuttons
+{
+	margin-left:1%;	
+}
+
+#pricebuttons
+{
+	padding-left:2%;
+	padding-top:2%;
+	
+}
+.cat img
+{
+	width:50%;
+margin-left:25%;
+
+}
+
+.cat h5
+{
+margin-left:2%;
+}
+#logo
+{	
+    width: 100%;
+}
+
+#logoimg
+{
+	width:50%;
+	margin-left:25%;
+}
+
+#logonav
+{
+margin-top:4%;
+    width: 80%;
+}
